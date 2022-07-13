@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    background: #1E2127;
+    height: 85px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    line-height: 80px;
+    padding: 0 30px;
+
+}
+nav ul{
+    float: right;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding: 0 30px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    
+}
+.introduction{
+    height: 100vh;
+    background-image: url("../img/bridge3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 55%;
+    box-sizing: border-box;
+}
+.introduction2{
+    height: 100vh;
+    background-image: url("../img/att.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 75%;
+    box-sizing: border-box;
+}
+.introduction3{
+    height: 100vh;
+    background-image: url("../img/hotel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 55%;
+    box-sizing: border-box;
+}
+.introduction4{
+    height: 100vh;
+    background-image: url("../img/toBring.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 55%;
+    box-sizing: border-box;
+}
+
+/* .introduction2{
+    height: 100vh;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 55%;
+    box-sizing: border-box;
+}
+.introduction3{
+    height: 100vh;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 55%;
+    box-sizing: border-box;
+} */
+#intro{
+    color: rgb(216, 224, 231);
+    padding-top: 240px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+
+}
+#intro2{
+    color: rgb(21, 22, 22);
+    padding-top: 10px;
+    padding-bottom: 1px;
+    text-align: center;
+    font-size: 40px;
+}
+#intro3{
+    color: rgb(13, 14, 14);
+    padding-top: 240px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#commentSubmit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    border: 2px so;
+    
+}
+#writeComments{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#comment{
+    margin-top:15px;
+    margin-bottom:15px;
+    background-color: rgb(235, 235, 226);
+}
+.footer{
+    margin: auto;
+    height: 330px;
+    background-color: #1e2127;
+    color: #ffffff;
+    text-align:center;
+}
+#contact{
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+}
+p1{
+    color: #ffffff;
+    padding: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+#searchbar{
+    display: flex;  
+    border: 2px solid #73AD21;
+    height: 27px;
+}
+a:hover {
+    color: #73AD21;
+}
+#fb{
+    
+    padding-top: 10px;
+}
+#insta{
+    
+    padding-top: 10px;
+}
+h2{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logos{
+    vertical-align: middle;
+}
+.row {
+    display: flex;
+    padding-top: 20px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  #raft{
+    color:rgb(21, 22, 22);
+    font-size: 17px;
+  }
+  #limketkai{
+    width: 300px;
+    margin-left: 150px;
+    
+  }
+.hotel{
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(184, 178, 178);
+    padding: 20px;
+}
+#hotelIntro{
+    color: #1E2127;
+    margin-left: 130px;
+}
+
+
+
+
+.mySlides {display:none;}
+
+#cdo{
+    color: #ffffff;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#cdo3{
+    color: #0f0f0f;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#whitewater{
+    padding-top: 5px;
+    max-width: 850px;
+  position: relative;
+  margin: auto;
+}
+.img1 {
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+  
+  /* div {
+    border: 3px solid #4CAF50;
+    padding: 5px;
+  } */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.caption1{
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.title{
+    font-size: 20px;
+    color: black;
+}

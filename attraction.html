@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Blog</title>
+    <link rel="stylesheet" href="./css/style3.css">
+    
+</head>
+<body>
+    <section class = "header">
+        <nav>
+            <label class="logo">
+                <img src="../img/cdo_2.png" width="200em" alt="logo">
+            </label>
+            <ul>
+                <li><a href="WD11_exercise3_bayabao_Abdul_Rahman.html">Home</a></li>
+                <li><a href="attraction.html">Attraction</a></li>
+                <li><a href="accomodation.html">Accomodation</a></li>
+                <li><a href="toBring.html">To Bring</a></li>
+                <li>
+                    <input type="text" placeholder="Search" id = "searchbar">
+                   
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <div>
+        <section class = "introduction2">
+            <h1 id = "intro">Explore the Cagayan de Oro Tourist Attraction.</h1>
+            <p id="cdo">
+                Known as the City of Golden Friendship of the Philippines, Cagayan de Oro City is a famous tourist destination for its white water rafting activities. The happiest city is also a great spot offering the best things to do in Cagayan in Cagayan de Oro City for thrill-seeker tourists. <br>
+
+                <br>To give you a head start on the adventurous activities CDO has to offer, here are the 10 best things to do in Cagayan de Oro City.
+            </p>
+        </section>
+    </div>
+    <div>
+        <div class="clearfix">
+            <img class="img1" src="../img/whiteraft1.jpg" alt="Pineapple" width="570px" height="300px">
+            <div class="caption1">
+                <h3 id = "title">Experience Whitewater Rafting</h3>
+                <br>Whitewater rafting is the most popular and must-try adventure-filled activity you can do when visiting Cagayan de Oro, Philippines. In this recreational activity, your group will be riding a raft that will navigate Cagayan de Oro river. 
+
+                You’ll be treated to stunning views while getting splashed on by the water as you paddle, sometimes even falling off the raft but don’t worry, it’s all part of the experience.
+
+                There are over 25 rapids to take on, with the trained guides leading you and your crew for navigation and safety. This experience is also for all types of rafters, even beginners.
+
+                If you’ve tried whitewater rafting before and want to take on a more challenging course, there are rapids that are for advanced rafters too and it is one of the best rainy season activities in the Philippines.
+
+                There are many tour companies offering this type of thrill-seeking activity. The entire experience usually takes up half of the day, with some including lunch on the riverbank.
+
+                Make sure you have dressed appropriately so you can maximize this experience in Cagayan de Oro!
+            </div>
+          </div>
+          <div class="clearfix">
+            <img class="img1" src="../img/seas3.jpg" alt="Pineapple" width="570px" height="300px">
+            <div class="caption1">
+                <h3 id = "title">Have Some Water Fun at Seven Seas Waterpark & Resort</h3>
+                <br>The “pirates” theme is evident in every part of this popular waterpark and resort in Cagayan de Oro, Philippines. Bring the whole family and enjoy exploring the resort’s Shipwreck Island, Treasure Island, and Pirate Lookout Tower. <br>
+
+                <br> Apart from the impressive man-made attractions, the main highlights here are the massive slides. <br>
+                
+                <br> In fact, Seven Seas Waterpark & Resort is home to the longest waterpark slide in Mindanao and the biggest dual wave pool in the Philippines, the Buccaneer Bay.
+            </div>
+          </div>
+          <div class="clearfix">
+            <img class="img1" src="../img/att2.jpg" alt="Pineapple" width="570px" height="300px">
+            <div class="caption1">
+                <h3 id = "title">Go on a Day Trip to Camiguin</h3>
+                <br>If you love the beach and some water activities, a day trip to Camiguin Island is for you. Apart from the white sand beaches, you can also explore its waterfalls, jungles, volcanoes, and of course, its local eats. <br>
+
+                <br> The day tours include the following spots: Gui-ob Old Church ruins, Hibok-Hibok Ardent Hot Spring, Katibawasan Falls, Sunken Cemetery, and Old Volcano Walkway.
+                
+                <br> You can also choose between two white sand beaches, White Island or Mantigue Island for a relaxing afternoon swimming in its azure waters. <br>
+                
+                <br> While you’re in Camiguin, make sure to try their famed delicacy, the Vjandep Pastel. This bun has a sweet custard filling that will satisfy your tastebuds from the first bite. Make sure to bring some with you when you go home. In fact, Seven Seas Waterpark & Resort is home to the longest waterpark slide in Mindanao and the biggest dual wave pool in the Philippines, the Buccaneer Bay.
+            </div>
+          </div>
+
+    <div>
+        <section id = "comment">
+            <h2>Write your Comment here</h2>
+                <form >
+                    <textarea id="w3review" name="w3review" rows="14" cols="150"></textarea>
+                    <br>
+                    <input type="submit" id = "commentSubmit" value="Submit">
+                </form>
+        </section>  
+
+    </div>
+
+    <div class = "footer">
+        <h2 id ="contact">Contact us</h2>
+        <p1> Contact Number: +63 9484 713 256</p1>
+        <section class = "logos">
+            <ul>
+                <li><a href=""><img src="../img/fb.png"  width="75px" alt="fb" id = "fb"></a></li>
+               
+            </ul>
+        </section>
+        
+    </div>
+    
+ 
+ 
+    
+    
+</body>
+<script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+    </script>
+    
+</html>

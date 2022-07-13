@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Blog</title>
+    <link rel="stylesheet" href="./css/style3.css">
+    
+</head>
+<body>
+    <section class = "header">
+        <nav>
+            <label class="logo">
+                <img src="../img/cdo_2.png" width="200em" alt="logo">
+            </label>
+            <ul>
+                <li><a href="WD11_exercise3_bayabao_Abdul_Rahman.html">Home</a></li>
+                <li><a href="attraction.html">Attraction</a></li>
+                <li><a href="accomodation.html">Accomodation</a></li>
+                <li><a href="toBring.html">To Bring</a></li>
+                <li>
+                    <input type="text" placeholder="Search" id = "searchbar">
+                   
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <div>
+        <section class = "introduction4">
+            <h1 id = "intro">What are you suppose to bring when visiting Cagayan de Oro?</h1>
+            <p id="cdo">
+                
+                <br> Packing can be the bane of your life: but we’ve made the chore a little less tiresome for you and devised a COMPLETE packing list. Got a big trip coming up? Use this ultimate guide to remind you of useful essentials you need to buy for your travels whether it’s shower gel, socks, clothes or sunnies. Knowing how to pack a backpack for a long trip ain’t easy. But simply treat this as a packing checklist and tick off each item as you go. Of course, it really depends on what kind of trip you’re about to embark so we’ve tried to include items that cater to every kind of trip! <br>
+
+                <br> When it comes to packing, the best way to pack a backpack is to save space. Our top tip is to fold your clothes efficiently. Remember: Heavy stuff at the bottom, stuff that leaks goes in plastic bags and things you’ll need as soon as you arrive at your destination (like toiletries) at the top. Roll your clothes up rather than fold them if it takes up less room. This guide will also work for suitcases for air travel too, not just backpacks. Don’t forget anything - and happy travelling! <br>
+
+                <br> Here are the other things to bring on your tip to this destinations: <br>
+            </p>
+        </section>
+    </div>
+    
+    <div>
+        <div class="clearfix">
+            <img class="img1" src="../img/whiteraft1.jpg" alt="Pineapple" width="570px" height="300px">
+            <div class="caption1">
+                <h3 id = "title">Whitewater Rafting</h3>
+                <br> Generally, it’s advised to bring bring only your valuables with you. You can leave your items in your service vehicle. <br>
+
+                <br> You can bring your action camera for the river ride and attach the monopod on your lifevest via a metal clasp. Ours was provided by our organizer. That saying, you can only use your action camera when navigating through calm portions of the river, not on rapids. You can also bring a regular (DSLR or mirrorless) camera and secure it in a dry bag, but remember that any items that fall down the river is difficult to retrieve — you might as well consider them gone. <br>
+                
+               <br> Don’t forget to bring water and snacks because you may get hungry after the activity.
+            </div>
+          </div>
+          <div class="clearfix">
+            <img class="img1" src="../img/seas3.jpg" alt="Pineapple" width="570px" height="300px">
+            <div class="caption1">
+                <h3 id = "title">Seven Seas Waterpark & Resort</h3>
+                <br>Before going to Seven Seas, you should konw that they follow strict dresscode. Seven seas allow swimsuit, board shorts, Bikini, Dri-fit Shirt and Full Body Wet Suit.Visitors who unable to dress the proper dresscode will not be allowed take rides in the park. <br>
+
+                <br>You can also view the other information on what to bring and expect in the Seven Seas in this <a href="https://www.projectlupad.com/faq-things-need-know-going-seven-seas-waterpark/">Link</a>
+            </div>
+          </div>
+          <div class="clearfix">
+            <img class="img1" src="../img/att2.jpg" alt="Pineapple" width="570px" height="300px">
+            <div class="caption1">
+                <h3 id = "title">Camiguin</h3>
+                <br> Here are the requirements that you need to prepare before going to Camiguin: <br>
+
+                <b>Get a vaccination card or certificate </b>
+
+                Only fully vaccinated travelers are allowed to go to the island for leisure purposes, so you need to present a vaccination card or vaccination certificate to prove your fully vaccinated status. No negative COVID-19 test result is required for entry. <br>
+
+                <b>Book with an LGU-accredited Camiguin hotel or resort</b>
+
+                You need to provide a confirmed booking from a Camiguin hotel or resort. If you are staying in a private home, you need to secure clearance from the Municipal Health Officer. <br>
+
+                <b> Submit the requirements at cleancamiguinqr.com </b>
+                Visit cleancamiguinqr.com and upload all the requirements. You’ll also need to fill out a Health Declaration Form on the website. Once done, you will receive an ID with a QR code. You need to print this out for your trip. <br>
+
+                <b>Schedule an antigen test (for those staying more than 5 days)</b> 
+
+                If you plan to stay on the island for more than 5 days, take note that you need to take an antigen test on your fifth day.
+            </div>
+          </div>
+
+    <div>
+        <section id = "comment">
+            <h2>Write your Comment here</h2>
+                <form >
+                    <textarea id="w3review" name="w3review" rows="14" cols="150"></textarea>
+                    <br>
+                    <input type="submit" id = "commentSubmit" value="Submit">
+                </form>
+        </section>  
+
+    </div>
+
+    <div class = "footer">
+        <h2 id ="contact">Contact us</h2>
+        <p1> Contact Number: +63 9484 713 256</p1>
+        <section class = "logos">
+            <ul>
+                <li><a href=""><img src="../img/fb.png"  width="75px" alt="fb" id = "fb"></a></li>
+               
+            </ul>
+        </section>
+        
+    </div>
+    
+ 
+ 
+    
+    
+</body>
+<script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+    </script>
+    
+</html>
